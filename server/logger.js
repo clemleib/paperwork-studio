@@ -25,7 +25,7 @@ const logger = {
 
     console.log(`
 ${chalk.bold('Access URLs:')}${divider}
-Localhost: ${chalk.magenta(`http://${host}:${port}`)}
+Localhost: ${chalk.magenta(`https://angry-mahavira-ac08bb.netlify.app`)}
       LAN: ${chalk.magenta(`http://${ip.address()}:${port}`) +
         (tunnelStarted
           ? `\n    Proxy: ${chalk.magenta(tunnelStarted)}`
